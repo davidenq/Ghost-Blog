@@ -1,0 +1,40 @@
+<div id="menu">
+	<a class="close-button">Cerrar</a>
+	<ul>
+		<li><h2><span id="footer-menu">{{@blog.title}}</span></h2></li>
+		<li><br><span id="footer-menu">{{@blog.description}}</span><br></li>
+
+	</ul>
+	<br/>
+	<ul>
+		<a href="about"><li><span id="about">Acerca del autor</span></li></a>
+	</ul>
+	{{!-- {{#foreach navigation}}
+		<li class="nav-{{slug}}{{#if current}} active{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
+		{{/foreach}}--}}
+		<br/><br/><br/>
+	<ul>
+		<li>
+			<div class="post-share post-share-menu">
+				<a href="https://twitter.com/davidenq">
+					<i class="icon-twitter-outline"></i><span class="hidden">Twitter</span>
+				</a>
+				<a href="https://www.facebook.com/davenq">
+					<i class="icon-facebook-outline"></i><span class="hidden">Facebook</span>
+				</a>
+				<a  href="https://plus.google.com/u/1/+DavidNuñezQ/">
+					<i class="icon-googleplus"></i><span class="hidden">Google+</span>
+				</a>
+				<a href="https://github.com/davidenq">
+					<i class="icon-github-outline"></i><span class="hidden">Github</span>
+				</a>
+				<a href="https://ec.linkedin.com/in/davidenq">
+					<i class="icon-linkedin-outline"></i><span class="hidden">Linkedin</span>
+				</a>
+				<div class="clear"></div>
+			</div>
+		</li>
+		<li class="nav-rss"><a href="{{@blog.url}}/rss/"><i class="ic ic-rss"></i> Suscribirse</a></li>	
+	</ul>
+
+</div>
