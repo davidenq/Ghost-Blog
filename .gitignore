@@ -1,18 +1,7 @@
-b-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
-
-pids
-logs
-results
-
-npm-debug.log
+content/data
+content/images
 node_modules
+<<<<<<< HEAD
 bower_components
 .bowerrc
 .idea/*
@@ -68,3 +57,5 @@ config.js
 
 # Coverage reports
 coverage.html
+=======
+>>>>>>> stable
