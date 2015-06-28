@@ -15,18 +15,8 @@
   },
   "bugs": "https://github.com/TryGhost/Ghost/issues",
   "contributors": "https://github.com/TryGhost/Ghost/graphs/contributors",
-<<<<<<< HEAD
   "license": "MIT",
-  "main": "./core/index",
-=======
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/TryGhost/Ghost/master/LICENSE"
-    }
-  ],
   "main": "./index",
->>>>>>> stable
   "scripts": {
     "start": "node index",
     "test": "grunt validate --verbose"
